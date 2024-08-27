@@ -21,6 +21,39 @@
 	<script src="./js/blocs.min.js?7153"></script>
 	<script src="./js/lazysizes.min.js" defer></script>
     <title>MICCAI 2024 - DeCaF</title>
+	<style>
+        .committee-section {
+            margin: 20px;
+            font-family: Arial, sans-serif;
+        }
+        .committee-section h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .members {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .member {
+            flex: 1 1 calc(33.333% - 20px);
+            box-sizing: border-box;
+            margin-bottom: 15px;
+        }
+        .member span {
+            display: block;
+        }
+        @media (max-width: 768px) {
+            .member {
+                flex: 1 1 calc(50% - 20px);
+            }
+        }
+        @media (max-width: 480px) {
+            .member {
+                flex: 1 1 100%;
+            }
+        }
+    </style>
 
 
     
@@ -465,7 +498,7 @@ We conducted a comprehensive analysis by synthesizing information from four data
 						<img src="img/lazyload-ph.png" data-src="img/patrick.png" class="img-fluid rounded-circle img-holg-style mx-auto d-block lazyload" />
 					</div>
 				</div> -->
-			</div>
+			<!-- </div> -->
 		</div>
 	</div>
 </div>
@@ -706,37 +739,50 @@ We conducted a comprehensive analysis by synthesizing information from four data
 				</div>
 			</div>
 		</div>
-<!--
-		<div class="col-md-12 col-lg-6 offset-lg-3">
-			<h3 class="mg-md text-center">
-				<br>
-				<strong>Program Commitee</strong><br><br>
-				<div class="row">
-					<div class="col">
-						<p class="p-style">
-							<b>Amir Alansary</b>, Imperial College London <br>
-							<b>Reuben Dorent</b>, KCL <br>
-							<b>Ralf Floca</b>, DKFZ<br>
-							<b>Mark Graham</b>, KCL<br>
-							<b>Jonny Hancox</b>, NVIDIA Corporation<br>
-							<b>Yuankai Huo</b>, Vanderbilt University<br>
-							<b>Klaus Kades</b>, DKFZ<br>
-							<b>Jayashree Kalpathy-Cramer</b>, MGH/Harvard Medical School<br>
-							<b>Sarthak Pati</b>, University of Pennsylvania<br>
-							<b>G Anthony Reina</b>, Intel Corporation<br>
-							<b>Daniel Rubin</b>, Stanford University<br>
-							<b>Wojciech Samek</b>, Fraunhofer HHI<br>
-							<b>Jonas Scherer</b>, DKFZ<br>
-							<b>Micah J Sheller</b>, Intel Corporation<br>
-							<b>Ziyue Xu</b>, NVIDIA Corporation<br>
-							<b>Dong Yang</b>, NVIDIA Corporation<br>
-							<b>Maximilian Zenk</b>, DKFZ<br>
-						</p>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h3 class="mg-md text-center">
+						<br>
+						<strong>Program Committee</strong><br><br>
+					</h3>
+					<div class="row">
+						<div class="col-md-6">
+							<p class="p-style">
+								<b>Anabik Pal</b>, IISER Berhampur<br>
+								<b>Anna Banaszak</b>, Technical University of Munich<br>
+								<b>Chamani Shiranthika Jayakody Kankanamalage</b>, Simon Fraser University<br>
+								<b>Di Fan</b>, USC<br>
+								<b>Guangyao Zheng</b>, Rice University<br>
+								<b>Herve Delingette</b>, Inria<br>
+								<b>Jonny Hancox</b>, NVIDIA<br>
+								<b>Kevinminh Ta</b>, Yale University<br>
+								<b>Lucia Innocenti</b>, INRIA, King's College London<br>
+								<b>Malte Tölle</b>, University Hospital Heidelberg<br>
+								<b>Marawan Elbatel</b>, The Hong Kong University of Science and Technology<br>
+								<b>Muzaffer Özbey</b>, Bilkent University<br>
+								<b>Nikhil J Dhinagar</b>, Imaging Genetics Center, University of Southern California<br>
+							</p>
+						</div>
+						<div class="col-md-6">
+							<p class="p-style">
+								<b>Onat Dalmaz</b>, Stanford University<br>
+								<b>Pramit Saha</b>, University of Oxford<br>
+								<b>Ralf Floca</b>, German Cancer Research Center (DKFZ)<br>
+								<b>Ruoyou Wu</b>, Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences<br>
+								<b>Shanshan Wang</b>, Shenzhen Institute of Advanced Technology, Chinese Academy of Science<br>
+								<b>Shunxing Bao</b>, Vanderbilt University<br>
+								<b>Sourav Kumar</b>, Massachusetts General Hospital<br>
+								<b>Tolga Cukur</b>, Bilkent University<br>
+								<b>Xiaoran Zhang</b>, Yale University<br>
+								<b>Zeju Li</b>, Imperial College London<br>
+								<b>Zhao Wang</b>, The Chinese University of Hong Kong<br>
+							</p>
+						</div>
 					</div>
 				</div>
-			</h3>
+			</div>
 		</div>
--->
 	</div>
 </div>
 <!-- bloc-ORGANISATION END -->
